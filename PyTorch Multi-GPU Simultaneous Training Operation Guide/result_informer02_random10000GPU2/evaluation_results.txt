@@ -1,0 +1,5 @@
+Evaluation Metrics:
+R² Score: 0.9950
+RMSE: 0.9972
+MAE: 0.4308
+L2 Error: 869.6556
