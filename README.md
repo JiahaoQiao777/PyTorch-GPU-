@@ -1,6 +1,13 @@
 # PyTorch多 GPU 同时训练操作指南
 面向 第一次尝试多 GPU 并行训练 的完整教程，帮助你理解每一步原理，并能轻松迁移到自己的其他项目。
-
+## 项目结构
+```text
+├── Multi-GPU-simultaneous-training-operation-readme/   # 源码与示例代码实现
+├── result_informer02_random10000GPU2/                  # 完整数据集运行结果可视化（日志 / 模型权重 / 图表）
+├── Multi-GPU-Training.png                              # 多 GPU 工作显示
+├── datatry.csv                                         # 示例数据集（10 000 行 × 12 列）
+├── informer.py                                         # Minimal Informer 训练脚本（实现多GPU训练informer模型训练）
+└── README.md                                           # 本说明文件
 ````markdown
 # PyTorch 多 GPU 同时训练操作指南
 > 面向 **第一次尝试多 GPU 并行训练** 的完整教程，帮助你理解每一步原理，并能轻松迁移到自己的其他项目。
